@@ -1,5 +1,3 @@
-const { StreamingTextResponse, CohereStream } = require("ai");
-
 module.exports = class Cohere {
 	static async generateText({ prompt }) {
 		const body = JSON.stringify({
